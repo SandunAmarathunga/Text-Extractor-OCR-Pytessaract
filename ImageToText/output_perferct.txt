@@ -1,0 +1,143 @@
+International Journal of Applied Information Systems (AIS) ~ ISSN : 2249-0868
+Foundation of Computer Science FCS, New York, USA
+
+Volume 7— No. 1, April 2014 — wwwjjais.org
+
+Content Authentication of English Text via Internet using
+Zero Watermarking Technique and Markov Model
+
+Fadl M. Ba-Alwi
+Associate professor, Faculty of
+‘Computer and Information
+Technology, Sana'a University,
+Yemen, P.O.Box 1247
+
+Fahd N. Al-Wesabi
+PhD Candidate, Faculty of
+Engineering, SRTM University,
+Nanded, INDIA, Assistant
+teacher, Department of IT,
+
+Mokhtar M. Ghilan
+Assistant professor, Information
+‘Systems Department, Faculty
+of Computer and Information
+Technology, Sana'a University,
+
+ABSTRACT
+
+In the study of content authentication and tamper detection of
+digital text documents, there are very limited techniques
+available for content authentication of text documents using
+digital watermarking techniques. A novel intelligent text zero
+watermarking approach based on probabilistic patterns has
+been proposed in this paper for content authentication and
+tamper detection of English text documents. In the proposed
+approach, Markov model of order THREE and letter-based
+‘was constructed and abbreviated as LNMZW3 for text
+analysis and utilizes the interrelationship between contents of
+xziven text to generate the watermark. However, we can extract
+this watermark later using extraction and detection algorithms
+to identify the status of text document such as authentic, or
+tampered, The proposed approach was implemented using
+PHP Programming language with Net Beans IDE 7.0.
+Furthermore, the effectiveness and feasibility of our
+LNMZW3 approach has proved and compared with other
+recent approaches with experiments using five datascts of
+varying lengths and different volumes of attacks. Results
+show that the proposed approach is always detects tampering,
+attacks occurred randomly on text even when the tampering
+volume is low, mid or high. Comparative results with the
+recent approaches shows that the our LNMZW3 approach
+provides added value under random insertion and deletion
+attacks in terms of performance, watermark robustness and
+watermark security. However, it is provide worst
+‘enhancement under reorder attacks.
+
+General Terms
+Digital Watermarking, Watermark Robustness, Information
+Hiding, Probabilistic Patterns
+
+Keywords
+Markov Model, Content Authentication, Tampering
+Detection,
+
+1. INTRODUCTION
+
+With the increasing use of intemet, e-commerce, and other
+efficient communication technologies, the copyright
+protection and authentication of digital contents, have gained
+‘great importance. Most of these digital contents are in text
+form such as email, websites, chats, e-commerce, eBooks,
+news, and short messaging systems/services (SMS) [1].
+
+ 
+
+‘These text documents may be tempered by malicious
+attackers, and the modified data can lead to fatal wrong
+decision and transaction disputes [2].
+
+Yemen Faculty of Computing and IT,
+
+UST, Sana'a, Yemen
+
+Content authentication and tamper detection of digital image,
+audio, and video has been of great interest to the researchers.
+
+Recently, copyright protection, content authentication, and
+tamper detection of text document attracted the interest of
+researchers. Moreover, during the last decade, the research on
+text watermarking schemes is mainly focused on issues of
+copyright protection, but gave less attention on content
+authentication, integrity verification, and tamper detection [4]
+
+ 
+
+Various techniques have been proposed for copyright
+protection, authentication, and tamper detection for digital
+text documents. Digital Watermarking (DWM) techniques are
+considered as the most powerful solutions to most of these
+problems.
+
+‘The digital watermarking techniques have emerged as a
+solution to breaches of copyright protection, tampering
+detection, and content authentication of digital media
+Researchers have proposed various watermarking approaches,
+for images, audio, and video. However, watermarking
+approaches for text is very inadequate. The reason behind is
+the difficulty to watermark text.
+
+Traditional text watermarking techniques for tampering
+detection and text authentication such as format-based
+content-based, and image-based have a number of limitations,
+In other words, they are not applicable under random
+tampering attacks on all types of texts, and they need 10 use
+some transformations or modifications on contents of the text
+document to embed watermark information within the original
+text document itself which results in text capacity, quality,
+‘meaning, and value degradation,
+
+ 
+
+‘Text watermarking algorithms such as Word Length Zero-
+Watermarking, Non-Vowel ASCII Characters Zero-
+Watermarking, and content based Zero-Watermarking are not
+applicable under random tampering attack to all types of text
+documents. These algorithms are restricted to only
+alphabetical watermarks, which means they are not applicable
+to specialized texts such as legal documents, web contents,
+and documents containing financial, accounting, and
+mathematical notations. All makes these algorithms
+impractical, Furthermore, text watermarking algorithms using
+binary text image are not robust against retyping attacks. The
+text watermarking methods based on semantics are language
+dependent and do not provide a complete practical solution
+for all types of texts.
+
+‘The English text zero watermarking algorithm based on the
+probabilistic weight of Markov model presented in [24] has a
+umber of limitations in that it is not applicable under all
+tampering attacks to all type of documents. However, we can
+
+25
+
